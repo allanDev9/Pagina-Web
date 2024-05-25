@@ -4,26 +4,53 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .container {
     width: 200px;
     height: 200px;
-    color: blue;
-    background-color: aquamarine;
+    color: rgb(153, 127, 127);
+    background-color: rgb(174, 154, 254);
     border-radius: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* translate is not needed here */
+    z-index: 2;
 }
-
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    text-align: center;  /* Optional for ensuring text alignment */
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 20px;
 }
+#range{
+    width: 80%;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 70%;
+
+}
+.video-de-fondo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
 
 

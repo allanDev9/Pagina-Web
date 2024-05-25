@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">   
-        <input type="range">
+    <video class="video-de-fondo" src="video/video.mp4" autoplay muted loop>
+    </video> 
+    <div class="container">
+        <div class="title">
+            <span>Edad: </span><span id="age"></span>
+        </div>   
+        <input type="range" id="range" min="0" max="100" value="0">
+        <div>
+            <button class="boton" onclick="cambiarColor()">Cambiar De Color</button>
+        </div>
     </div>
+    
+    <script src="index.js" ></script>
 </body>
 </html>
