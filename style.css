@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    color: blue;
+    background-color: aquamarine;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* translate is not needed here */
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;  /* Optional for ensuring text alignment */
+}
+
+
