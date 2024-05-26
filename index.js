@@ -8,7 +8,7 @@ range.addEventListener("input", function(){
 
 const Title = document.querySelector(".title");
 
-const colors = ["black", "red","aqua", 
+const colors = ["black", "red","aqua", "white",
                 "brown","green", "blue", "purple"];
 let colorIndex = 0;
 
