@@ -15,4 +15,4 @@ let colorIndex = 0;
 function cambiarColor(){
     colorIndex = (colorIndex + 1) % colors.length;
     Title.style.color = colors[colorIndex];
-}
+}  
